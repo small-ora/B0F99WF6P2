@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 // Mock data for product features and reviews
 const productFeatures = [
   {
-    title: "智能感应灭蚊",
-    description: "采用AI智能识别技术，精准捕捉蚊虫活动轨迹，自动启动高效灭蚊模式",
+    title: "Intelligent Mosquito Sensing",
+    description: "Utilizes AI intelligent recognition technology to accurately capture mosquito activity trajectories and automatically activate efficient mosquito elimination mode.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" 
@@ -13,8 +13,8 @@ const productFeatures = [
     )
   },
   {
-    title: "安全环保技术",
-    description: "无化学药剂、无声光污染，采用物理灭蚊方式，保护家人健康",
+    title: "Safe and Eco-friendly Technology",
+    description: "No chemical agents, no noise or light pollution. Uses physical mosquito elimination methods to protect family health.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
@@ -23,8 +23,8 @@ const productFeatures = [
     )
   },
   {
-    title: "超长续航能力",
-    description: "内置高容量锂电池，支持连续工作30天，低功耗设计更节能",
+    title: "Ultra-long Battery Life",
+    description: "Built-in high-capacity lithium battery, supports continuous operation for 30 days, low power consumption design for energy saving.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="6" y="4" width="12" height="16" rx="2" stroke="currentColor" strokeWidth="2"/>
@@ -37,22 +37,22 @@ const productFeatures = [
 
 const userReviews = [
   {
-    name: "李女士",
-    location: "上海",
+    name: "Ms. Li",
+    location: "Shanghai",
     rating: 5,
-    comment: "自从用了这个灭蚊器，家里终于不用再点蚊香了，晚上睡觉安静又安心！"
+    comment: "Since using this mosquito killer, we finally don't have to light mosquito coils at home. Sleeping at night is quiet and reassuring!"
   },
   {
-    name: "王先生",
-    location: "广州",
+    name: "Mr. Wang",
+    location: "Guangzhou",
     rating: 5,
-    comment: "对比过好几种产品，这款的灭蚊效果最明显，而且完全不用担心有安全隐患"
+    comment: "Compared several products, this one has the most obvious mosquito-killing effect, and there's no need to worry about safety hazards."
   },
   {
-    name: "张妈妈",
-    location: "杭州",
+    name: "Mrs. Zhang",
+    location: "Hangzhou",
     rating: 4,
-    comment: "孩子睡觉再也不怕被蚊子叮了，就是充电一次使用时间如果能更长就更好了"
+    comment: "My child is no longer afraid of mosquito bites when sleeping. It would be even better if the battery life could be longer after a single charge."
   }
 ];
 
@@ -73,17 +73,17 @@ function App() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                彻底告别蚊虫困扰
+                Say Goodbye to Mosquito Troubles
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-600">
-                智能灭蚊系统，为您打造健康舒适的居住环境
+                Intelligent mosquito elimination system, creating a healthy and comfortable living environment for you.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  立即购买
+                  Buy Now
                 </button>
                 <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-medium rounded-lg transition-all duration-300">
-                  了解更多
+                  Learn More
                 </button>
               </div>
             </div>
@@ -106,7 +106,7 @@ function App() {
       <section id="features" className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">核心功能</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Core Features</h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
           
@@ -129,7 +129,7 @@ function App() {
       <section id="gallery" className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">产品图集</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Product Gallery</h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
           
@@ -154,7 +154,7 @@ function App() {
       <section id="reviews" className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">用户评价</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">User Reviews</h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
           
@@ -182,12 +182,12 @@ function App() {
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">立即体验无蚊生活</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Experience a Mosquito-Free Life Now</h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-            现在购买享受限时优惠，让您的家庭远离蚊虫困扰
+            Purchase now to enjoy limited-time offers and keep your family away from mosquito troubles.
           </p>
           <button className="px-8 py-4 bg-white text-blue-600 font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            立即下单
+            Order Now
           </button>
         </div>
       </section>
@@ -195,7 +195,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <p>© 2023 灭蚊科技有限公司 | 保留所有权利</p>
+          <p>© 2023 elechome | All Rights Reserved</p>
         </div>
       </footer>
     </div>
