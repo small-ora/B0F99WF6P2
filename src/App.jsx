@@ -79,10 +79,10 @@ function App() {
                 Intelligent mosquito elimination system, creating a healthy and comfortable living environment for you.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
                   Buy Now
                 </button>
-                <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-medium rounded-lg transition-all duration-300">
+                <button className="px-8 py-3 border border-blue-600 text-blue-600 font-semibold rounded-lg shadow hover:bg-blue-50 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
                   Learn More
                 </button>
               </div>
