@@ -67,6 +67,13 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white text-gray-800">
+      {/* Header Bar */}
+      <header className="w-full bg-gradient-to-r from-blue-200 via-purple-100 to-pink-100 shadow-md py-5 mb-2">
+        <div className="container mx-auto px-4 flex flex-col items-center">
+          <span className="text-3xl md:text-4xl font-extrabold tracking-widest text-blue-800 drop-shadow select-none">ELECHOME</span>
+          <span className="mt-2 text-base md:text-lg text-blue-700 font-medium tracking-wide select-none">Smart Home, Better Life.</span>
+        </div>
+      </header>
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="container mx-auto px-4 py-16 md:py-24">
